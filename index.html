@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from shepherdandmilcah.co.zw/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Jul 2026 10:12:33 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Godfrey & Gracious - Wedding</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.bunny.net/">
+    <link href="https://fonts.bunny.net/css?family=playfair-display:400,600,700|inter:400,500,600&amp;display=swap" rel="stylesheet" />
+
+    <!-- Styles / Scripts -->
+            <link rel="preload" as="style" href="build/assets/app-B9fOhxTP.css" /><link rel="modulepreload" as="script" href="build/assets/app-UyRVujZY.js" /><link rel="stylesheet" href="build/assets/app-B9fOhxTP.css" /><script type="module" src="build/assets/app-UyRVujZY.js"></script>        
+    <!-- Alpine.js for interactive components (intersect plugin must load before core) -->
+    <script defer src="cdn.jsdelivr.net/npm/%40alpinejs/intersect%403.x.x/dist/cdn.min.js"></script>
+    <script defer src="cdn.jsdelivr.net/npm/alpinejs%403.x.x/dist/cdn.min.js"></script>
+
+    <style>
+        [x-cloak] { display: none !important; }
+        .fade-in { animation: fadeIn 1s ease-in; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+        .reveal { opacity: 1; }
+        .reveal.reveal-visible { animation: revealIn 0.8s ease-out; }
+        @keyframes revealIn { from { opacity: 0; transform: translateY(2.5rem); } to { opacity: 1; transform: translateY(0); } }
+
+        @keyframes bounce-y { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(8px); } }
+        .animate-bounce-y { animation: bounce-y 2s ease-in-out infinite; }
+
+        @keyframes kenBurns { from { transform: scale(1); } to { transform: scale(1.15); } }
+        .animate-ken-burns { animation: kenBurns 18s ease-in-out infinite alternate; }
+
+        .hero-slideshow { position: absolute; inset: 0; overflow: hidden; }
+        .hero-slide {
+            position: absolute; inset: 0; width: 100%; height: 100%;
+            object-fit: cover; object-position: center 20%;
+            opacity: 0;
+        }
+        .hero-slide.animate-ken-burns {
+            animation: heroSlideFade 35s ease-in-out infinite, kenBurns 18s ease-in-out infinite alternate;
+        }
+        .hero-slide:nth-child(1) { animation-delay: 0s, 0s; }
+        .hero-slide:nth-child(2) { animation-delay: 5s, 0s; }
+        .hero-slide:nth-child(3) { animation-delay: 10s, 0s; }
+        .hero-slide:nth-child(4) { animation-delay: 15s, 0s; }
+        .hero-slide:nth-child(5) { animation-delay: 20s, 0s; }
+        .hero-slide:nth-child(6) { animation-delay: 25s, 0s; }
+        .hero-slide:nth-child(7) { animation-delay: 30s, 0s; }
+        @keyframes heroSlideFade {
+            0%, 100% { opacity: 0; }
+            2%, 14% { opacity: 1; }
+            16%, 98% { opacity: 0; }
+        }
+    </style>
+</head>
+<body class="font-sans antialiased bg-ink text-secondary-light">
+    <!-- Navigation -->
+    <nav x-data="{ open: false }" class="bg-ink/90 backdrop-blur-md sticky top-0 z-50 shadow-lg border-b border-primary/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <div class="flex items-center">
+                    <a href="index.html" class="font-serif text-2xl font-bold text-primary-light">G & G</a>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="relative text-white hover:text-primary-light transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-primary-light after:transition-all after:duration-300 hover:after:w-full">Home</a>
+                    <a href="index.html#story" class="relative text-white hover:text-primary-light transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-primary-light after:transition-all after:duration-300 hover:after:w-full">Our Story</a>
+                    <a href="index.html#details" class="relative text-white hover:text-primary-light transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-primary-light after:transition-all after:duration-300 hover:after:w-full">Event Details</a>
+                    <a href="index.html#directions" class="relative text-white hover:text-primary-light transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-primary-light after:transition-all after:duration-300 hover:after:w-full">Directions</a>
+                    <a href="gallery.html" class="relative text-white hover:text-primary-light transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-primary-light after:transition-all after:duration-300 hover:after:w-full">Gallery</a>
+                    <a href="quiz.html" class="relative text-white hover:text-primary-light transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-primary-light after:transition-all after:duration-300 hover:after:w-full">Quiz</a>
+                    <a href="rsvp.html" class="bg-primary text-white px-6 py-2 rounded-full hover:bg-primary-dark hover:scale-105 active:scale-95 transition-all duration-300 shadow-md">RSVP</a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="flex items-center md:hidden">
+                    <button @click="open = !open" class="text-secondary hover:text-primary-light focus:outline-none">
+                        <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                            <path x-show="!open" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                            <path x-show="open" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" x-cloak />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div x-show="open" @click.away="open = false" class="md:hidden bg-ink border-t border-primary/20 shadow-lg absolute w-full" x-transition x-cloak>
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html" class="block px-3 py-2 text-base font-medium text-secondary hover:text-primary-light hover:bg-ink-light rounded-md">Home</a>
+                <a href="index.html#story" class="block px-3 py-2 text-base font-medium text-secondary hover:text-primary-light hover:bg-ink-light rounded-md">Our Story</a>
+                <a href="index.html#details" class="block px-3 py-2 text-base font-medium text-secondary hover:text-primary-light hover:bg-ink-light rounded-md">Event Details</a>
+                <a href="index.html#directions" class="block px-3 py-2 text-base font-medium text-secondary hover:text-primary-light hover:bg-ink-light rounded-md">Directions</a>
+                <a href="gallery.html" class="block px-3 py-2 text-base font-medium text-secondary hover:text-primary-light hover:bg-ink-light rounded-md">Gallery</a>
+                <a href="quiz.html" class="block px-3 py-2 text-base font-medium text-secondary hover:text-primary-light hover:bg-ink-light rounded-md">Quiz</a>
+                <a href="rsvp.html" class="block px-3 py-2 text-base font-medium text-primary-light font-bold hover:bg-ink-light rounded-md">RSVP</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        
+<!-- ============ HERO ============ -->
+<div class="relative w-full h-screen overflow-hidden bg-ink-dark">
+    <div class="absolute inset-0 z-0 overflow-hidden">
+        <div class="hero-slideshow">
+            <img src="images/1.jpg" alt="Wedding background slide 1" class="hero-slide animate-ken-burns">
+            <img src="images/2.jpg" alt="Wedding background slide 2" class="hero-slide animate-ken-burns">
+            <img src="images/3.jpg" alt="Wedding background slide 3" class="hero-slide animate-ken-burns">
+            <img src="images/4.jpg" alt="Wedding background slide 4" class="hero-slide animate-ken-burns">
+            <img src="images/5.jpg" alt="Wedding background slide 5" class="hero-slide animate-ken-burns">
+            <img src="images/6.jpg" alt="Wedding background slide 6" class="hero-slide animate-ken-burns">
+            <img src="images/7.jpg" alt="Wedding background slide 7" class="hero-slide animate-ken-burns">
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-t from-ink-dark via-ink-dark/60 to-ink-dark/50"></div>
+    </div>
+
+    <div class="relative z-10 flex flex-col items-center justify-end h-full text-center px-4 pb-16 md:pb-20 fade-in">
+        <p class="text-white text-lg md:text-xl uppercase tracking-[0.3em] mb-4 drop-shadow-md">You are cordially invited</p>
+        <h1 class="wedding-title text-primary mb-6 drop-shadow-lg">Godfrey <span class="text-white italic">&amp;</span> Gracious</h1>
+        <div class="flex items-center space-x-4 text-white text-lg md:text-2xl font-light mb-10">
+            <span>July 25, 2026</span>
+            <span class="w-2 h-2 rounded-full bg-primary"></span>
+            <span>Harare, ZW</span>
+        </div>
+
+        <!-- Countdown Timer -->
+        <div x-data="countdown(new Date('July 25, 2026 09:00:00').getTime())" class="dark-card rounded-2xl p-6 md:p-8 flex space-x-6 md:space-x-10 text-white">
+            <div class="flex flex-col items-center">
+                <span class="text-4xl md:text-5xl font-serif text-primary-light" x-text="days"></span>
+                <span class="text-xs md:text-sm uppercase tracking-widest mt-2 text-secondary font-bold">Days</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <span class="text-4xl md:text-5xl font-serif text-primary-light" x-text="hours"></span>
+                <span class="text-xs md:text-sm uppercase tracking-widest mt-2 text-secondary font-bold">Hours</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <span class="text-4xl md:text-5xl font-serif text-primary-light" x-text="minutes"></span>
+                <span class="text-xs md:text-sm uppercase tracking-widest mt-2 text-secondary font-bold">Mins</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <span class="text-4xl md:text-5xl font-serif text-primary-light" x-text="seconds"></span>
+                <span class="text-xs md:text-sm uppercase tracking-widest mt-2 text-secondary font-bold">Secs</span>
+            </div>
+        </div>
+
+        <div class="mt-12">
+            <a href="rsvp.html" class="inline-block bg-primary hover:bg-primary-dark text-white px-8 py-3 rounded-full text-lg shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 transition-all duration-300">RSVP Now</a>
+        </div>
+    </div>
+
+    <!-- Scroll cue -->
+    <a href="#story" class="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 text-primary-light animate-bounce-y hover:text-white transition-colors" aria-label="Scroll to our story">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+    </a>
+</div>
+
+<!-- ============ FACTS STRIP ============ -->
+<div class="bg-ink-light border-y border-primary/20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div x-intersect.once="$el.classList.add('reveal-visible')" class="reveal group cursor-default transition-transform duration-300 hover:-translate-y-1">
+            <svg class="w-8 h-8 mx-auto mb-3 text-gray-900 transition-transform duration-300 group-hover:scale-125" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+            <p class="text-white font-bold uppercase tracking-wide text-sm">Sat, July 25 2026</p>
+            <p class="text-secondary text-xs mt-1">Save the date</p>
+        </div>
+        <div x-intersect.once="$el.classList.add('reveal-visible')" style="transition-delay: 100ms" class="reveal group cursor-default transition-transform duration-300 hover:-translate-y-1">
+            <svg class="w-8 h-8 mx-auto mb-3 text-gray-900 transition-transform duration-300 group-hover:scale-125" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a2 2 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+            <p class="text-white font-bold uppercase tracking-wide text-sm">Royal Rose Gardens</p>
+            <p class="text-secondary text-xs mt-1">Hatfield, Harare</p>
+        </div>
+        <div x-intersect.once="$el.classList.add('reveal-visible')" style="transition-delay: 200ms" class="reveal group cursor-default transition-transform duration-300 hover:-translate-y-1">
+            <svg class="w-8 h-8 mx-auto mb-3 text-gray-900 transition-transform duration-300 group-hover:scale-125" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+            <p class="text-white font-bold uppercase tracking-wide text-sm">Formal Attire</p>
+            <p class="text-secondary text-xs mt-1">No jeans or flip-flops</p>
+        </div>
+        <div x-intersect.once="$el.classList.add('reveal-visible')" style="transition-delay: 300ms" class="reveal group cursor-default transition-transform duration-300 hover:-translate-y-1">
+            <svg class="w-8 h-8 mx-auto mb-3 text-gray-900 transition-transform duration-300 group-hover:scale-125" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+            <p class="text-white font-bold uppercase tracking-wide text-sm">RSVP by June 25</p>
+            <p class="text-secondary text-xs mt-1">Let us know you're coming</p>
+        </div>
+    </div>
+</div>
+
+<!-- ============ OUR STORY ============ -->
+<div id="story" class="relative bg-secondary-light py-20 md:py-28 overflow-hidden scroll-mt-20">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div x-intersect.once="$el.classList.add('reveal-visible')" class="reveal text-center mb-16">
+            <span class="eyebrow">Our Story</span>
+            <h2 class="font-serif text-4xl md:text-5xl font-bold text-gray-900 mt-4 mb-4">From Hello to Our <span class="text-primary italic">I Do</span></h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">Every love story is beautiful, but ours is our favorite. Here's a little of how we got here.</p>
+        </div>
+        <div class="mt-6 flex flex-col items-center gap-4">
+            <div class="w-full max-w-sm overflow-hidden rounded-2xl shadow-lg border border-primary/20 bg-gradient-to-br from-primary/20 via-secondary/40 to-primary/10 backdrop-blur-md">
+                <img src="images/gody.jpg" alt="Gody" class="w-full h-48 object-cover">
+                <div class="px-4 py-3 text-center">
+                    <p class="text-lg font-semibold text-primary">Godfrey</p>
+                </div>
+            </div>
+            <div class="w-full max-w-sm overflow-hidden rounded-2xl shadow-lg border border-primary/20 bg-gradient-to-br from-primary/20 via-secondary/40 to-primary/10 backdrop-blur-md">
+                <img src="images/gigi.jpg" alt="Gigi" class="w-full h-48 object-cover">
+                <div class="px-4 py-3 text-center">
+                    <p class="text-lg font-semibold text-primary">Gracious</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- How We Met -->
+            <div x-intersect.once="$el.classList.add('reveal-visible')" class="reveal bg-white rounded-2xl shadow-lg border-t-4 border-primary p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
+                <span class="text-xs font-bold text-primary tracking-widest uppercase">How We Met</span>
+                <h3 class="font-serif text-2xl mt-2 mb-3 text-gray-900">A Chance Encounter</h3>
+                <p class="text-gray-700 leading-relaxed">
+                    It all started when we unexpectedly crossed paths. What began as a simple conversation quickly turned into a deep connection. We bonded over our shared dreams and endless laughter.
+                </p>
+                
+            </div>
+
+            <!-- First Date -->
+            <div x-intersect.once="$el.classList.add('reveal-visible')" style="transition-delay: 150ms" class="reveal bg-white rounded-2xl shadow-lg border-t-4 border-primary p-8 md:mt-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
+                <span class="text-xs font-bold text-primary tracking-widest uppercase">First Date</span>
+                <h3 class="font-serif text-2xl mt-2 mb-3 text-gray-900">Sparks Fly</h3>
+                <p class="text-gray-700 leading-relaxed">
+                    Our first official date was magical. The conversation flowed effortlessly, and by the end of the evening, we both knew this was something truly special.
+                </p>
+            </div>
+
+            <!-- The Proposal -->
+            <div x-intersect.once="$el.classList.add('reveal-visible')" style="transition-delay: 300ms" class="reveal bg-white rounded-2xl shadow-lg border-t-4 border-primary p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
+                <span class="text-xs font-bold text-primary tracking-widest uppercase">The Proposal</span>
+                <h3 class="font-serif text-2xl mt-2 mb-3 text-gray-900">A Resounding Yes!</h3>
+                <p class="text-gray-700 leading-relaxed">
+                    Surrounded by our loved ones, Shepherd got down on one knee. It was the easiest 'Yes' Milcah had ever said. Now, we're so excited to celebrate with all of you.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ============ THE BIG DAY ============ -->
+<div class="bg-ink-dark py-20 md:py-24">
+    <div x-intersect.once="$el.classList.add('reveal-visible')" class="reveal max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <span class="eyebrow">The Big Day</span>
+        <h2 class="font-serif text-3xl md:text-5xl font-bold text-white mt-4 mb-16">One Day. Two Families. Forever.</h2>
+
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-8">
+            <div x-intersect.once="$el.classList.add('reveal-visible')" class="reveal group flex flex-col items-center cursor-default transition-transform duration-300 hover:-translate-y-2">
+                <svg class="w-8 h-8 mb-3 text-primary-light transition-transform duration-300 group-hover:scale-125 group-hover:rotate-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-6.857 2.286L12 21l-2.286-6.857L3 12l6.857-2.286L12 3z"></path></svg>
+                <p class="text-white text-sm font-semibold">Ceremony</p>
+            </div>
+            <div x-intersect.once="$el.classList.add('reveal-visible')" style="transition-delay: 100ms" class="reveal group flex flex-col items-center cursor-default transition-transform duration-300 hover:-translate-y-2">
+                <svg class="w-8 h-8 mb-3 text-primary-light transition-transform duration-300 group-hover:scale-125" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                <p class="text-white text-sm font-semibold">Vows</p>
+            </div>
+            <div x-intersect.once="$el.classList.add('reveal-visible')" style="transition-delay: 200ms" class="reveal group flex flex-col items-center cursor-default transition-transform duration-300 hover:-translate-y-2">
+                <svg class="w-8 h-8 mb-3 text-primary-light transition-transform duration-300 group-hover:scale-125" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87m6-1.13a4 4 0 10-4-4 4 4 0 004 4zm6 0a4 4 0 10-4-4 4 4 0 004 4z"></path></svg>
+                <p class="text-white text-sm font-semibold">Reception</p>
+            </div>
+            <div x-intersect.once="$el.classList.add('reveal-visible')" style="transition-delay: 300ms" class="reveal group flex flex-col items-center cursor-default transition-transform duration-300 hover:-translate-y-2">
+                <svg class="w-8 h-8 mb-3 text-primary-light transition-transform duration-300 group-hover:scale-125 group-hover:-rotate-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-2v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2z"></path></svg>
+                <p class="text-white text-sm font-semibold">Dancing</p>
+            </div>
+            <div x-intersect.once="$el.classList.add('reveal-visible')" style="transition-delay: 400ms" class="reveal group flex flex-col items-center col-span-2 md:col-span-1 cursor-default transition-transform duration-300 hover:-translate-y-2">
+                <svg class="w-8 h-8 mb-3 text-primary-light transition-transform duration-300 group-hover:scale-125 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9-2-9-18-9 18 9 2zm0 0v-8"></path></svg>
+                <p class="text-white text-sm font-semibold">Send-off</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ============ EVENT DETAILS ============ -->
+<div id="details" class="relative bg-secondary-light py-20 md:py-28 scroll-mt-20">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div x-intersect.once="$el.classList.add('reveal-visible')" class="reveal text-center mb-16">
+            <span class="eyebrow">Event Details</span>
+            <h2 class="font-serif text-4xl md:text-5xl font-bold text-gray-900 mt-4 mb-4">Everything You Need to Know</h2>
+            <p class="text-gray-600">Join us as we say &lsquo;I do&rsquo; and celebrate late into the day.</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+            <!-- When & Where + Dress Code -->
+            <div class="lg:col-span-2 space-y-8">
+                <div x-intersect.once="$el.classList.add('reveal-visible')" class="reveal bg-white p-8 rounded-2xl shadow-sm border border-secondary transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+                    <h3 class="font-serif text-2xl text-primary mb-4 flex items-center">
+                        <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                        When &amp; Where
+                    </h3>
+                    <div class="space-y-2 text-gray-700">
+                        <p><strong>Date:</strong> Saturday, July 25, 2026</p>
+                        <p><strong>Time:</strong> 9:00 AM &ndash; 3:00 PM</p>
+                        <p><strong>Venue:</strong>  Gardens</p>
+                        <p>2 Fern Road, Hatfield, Harare</p>
+                        <p class="italic text-sm text-primary mt-4">* Reception to follow at the same venue</p>
+                    </div>
+                </div>
+
+                <div x-intersect.once="$el.classList.add('reveal-visible')" style="transition-delay: 150ms" class="reveal bg-white p-8 rounded-2xl shadow-sm border border-secondary transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+                    <h3 class="font-serif text-2xl text-primary mb-4 flex items-center">
+                        <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        Dress Code
+                    </h3>
+                    <div class="space-y-4 text-gray-700">
+                        <p class="font-semibold text-lg">Formal Attire, Come Dressed to Impress.</p>
+                        <div class="bg-red-50 p-4 rounded-lg border border-red-100">
+                            <p class="text-red-600 font-medium">Strictly NO Jeans, Flip-flops, or Crocs permitted.</p>
+                        </div>
+                        <div class="mt-4">
+                            <p class="font-medium mb-2">Wedding Colors:</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1 bg-white border border-gray-300 rounded-full text-xs shadow-sm transition-transform duration-200 hover:scale-110 cursor-default">White</span>
+                                <span class="px-3 py-1 bg-black text-white rounded-full text-xs shadow-sm transition-transform duration-200 hover:scale-110 cursor-default">Black</span>
+                                <span class="px-3 py-1 bg-primary text-white rounded-full text-xs shadow-sm transition-transform duration-200 hover:scale-110 cursor-default">Purple</span>
+                                <span class="px-3 py-1 bg-secondary text-gray-800 rounded-full text-xs shadow-sm transition-transform duration-200 hover:scale-110 cursor-default">Grey</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Order of the Day floating card -->
+            <div x-intersect.once="$el.classList.add('reveal-visible')" style="transition-delay: 300ms" class="reveal dark-card rounded-2xl p-8 lg:sticky lg:top-28 transition-shadow duration-300 hover:shadow-2xl">
+                <p class="text-xs font-bold text-primary-light tracking-widest uppercase mb-6">Order of the Day</p>
+                <ul class="divide-y divide-primary/10">
+                    <li class="py-3 first:pt-0 last:pb-0 group transition-transform duration-200 hover:translate-x-1">
+                        <span class="block text-primary-light font-serif text-sm">09:00 &ndash; 09:30</span>
+                        <span class="block text-white text-sm mt-1">Arrival of Guests</span>
+                    </li>
+                    <li class="py-3 first:pt-0 last:pb-0 group transition-transform duration-200 hover:translate-x-1">
+                        <span class="block text-primary-light font-serif text-sm">09:30 &ndash; 09:40</span>
+                        <span class="block text-white text-sm mt-1">Welcome Remarks (MC)</span>
+                    </li>
+                    <li class="py-3 first:pt-0 last:pb-0 group transition-transform duration-200 hover:translate-x-1">
+                        <span class="block text-primary-light font-serif text-sm">09:40 &ndash; 10:15</span>
+                        <span class="block text-white text-sm mt-1">Bridal Procession</span>
+                    </li>
+                    <li class="py-3 first:pt-0 last:pb-0 group transition-transform duration-200 hover:translate-x-1">
+                        <span class="block text-primary-light font-serif text-sm">10:15 &ndash; 10:20</span>
+                        <span class="block text-white text-sm mt-1">Opening Song &amp; Prayer</span>
+                    </li>
+                    <li class="py-3 first:pt-0 last:pb-0 group transition-transform duration-200 hover:translate-x-1">
+                        <span class="block text-primary-light font-serif text-sm">10:20 &ndash; 10:30</span>
+                        <span class="block text-white text-sm mt-1">Introduction of Families and Guests</span>
+                    </li>
+                    <li class="py-3 first:pt-0 last:pb-0 group transition-transform duration-200 hover:translate-x-1">
+                        <span class="block text-primary-light font-serif text-sm">10:30 &ndash; 11:30</span>
+                        <span class="block text-white text-sm mt-1">Marriage Ceremony (Word, Vows, Rings, Certificate Signing, Candle Lighting &amp; Cake Cutting)</span>
+                    </li>
+                    <li class="py-3 first:pt-0 last:pb-0 group transition-transform duration-200 hover:translate-x-1">
+                        <span class="block text-primary-light font-serif text-sm">11:30 &ndash; 12:00</span>
+                        <span class="block text-white text-sm mt-1">Family Speeches</span>
+                    </li>
+                    <li class="py-3 first:pt-0 last:pb-0 group transition-transform duration-200 hover:translate-x-1">
+                        <span class="block text-primary-light font-serif text-sm">12:00 &ndash; 12:30</span>
+                        <span class="block text-white text-sm mt-1">Bridal Team Exit &amp; Photoshoot</span>
+                    </li>
+                    <li class="py-3 first:pt-0 last:pb-0 group transition-transform duration-200 hover:translate-x-1">
+                        <span class="block text-primary-light font-serif text-sm">12:30 &ndash; 14:00</span>
+                        <span class="block text-white text-sm mt-1">Lunch</span>
+                    </li>
+                    <li class="py-3 first:pt-0 last:pb-0 group transition-transform duration-200 hover:translate-x-1">
+                        <span class="block text-primary-light font-serif text-sm">14:00 &ndash; 16:00</span>
+                        <span class="block text-white text-sm mt-1">Guest Speeches &amp; Entertainment (MC)</span>
+                    </li>
+                    <li class="py-3 first:pt-0 last:pb-0 group transition-transform duration-200 hover:translate-x-1">
+                        <span class="block text-primary-light font-serif text-sm">16:00 &ndash; 16:10</span>
+                        <span class="block text-white text-sm mt-1">Vote of Thanks</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Getting There -->
+        <div id="directions" class="mt-8 scroll-mt-24">
+            <div x-intersect.once="$el.classList.add('reveal-visible')" class="reveal bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-secondary">
+                <h3 class="font-serif text-2xl md:text-3xl text-primary mb-8 flex items-center justify-center md:justify-start">
+                    <svg class="w-7 h-7 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a2 2 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    Getting There
+                </h3>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10 text-left">
+                    <!-- By Car -->
+                    <div>
+                        <span class="text-xs font-bold text-primary tracking-widest uppercase">By Car</span>
+                        <p class="text-gray-700 mt-3 mb-6">2 Fern Road, Hatfield, Harare. Tap below to open directions in Google Maps.</p>
+                        <a href="https://maps.app.goo.gl/YZPgzUaNqafKNwbp7"
+                           target="_blank" rel="noopener"
+                           class="inline-flex items-center gap-2 bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-full shadow-md hover:shadow-lg hover:scale-105 active:scale-95 transition-all duration-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a2 2 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            Get Directions
+                        </a>
+                    </div>
+
+                    <!-- By Public Transport -->
+                    <div>
+                        <span class="text-xs font-bold text-primary tracking-widest uppercase">By Public Transport (Kombi)</span>
+                        <ol class="mt-3 space-y-3 text-gray-700 leading-relaxed list-decimal list-inside">
+                            <li>From town, board a Kombi heading to Hatfield Kilwinning at the Charge Office.</li>
+                            <li>Drop off at the Tuckshops &mdash; this is the final stop for the Kombi.</li>
+                            <li>Turn left where you see the car wash and Musika, onto Alexandra Road.</li>
+                            <li>Follow Alexandra Road until the first right turn, onto Fern Road.</li>
+                            <li>Walk a few metres ahead &mdash; the venue is on your right, just after Mumvuriwedombo Gardens.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- RSVP Contacts -->
+        <div x-intersect.once="$el.classList.add('reveal-visible')" class="reveal mt-12 bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-secondary text-center">
+            <h3 class="font-serif text-3xl text-primary mb-8">RSVP Contacts</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-2xl mx-auto text-left">
+                <div>
+                    <h4 class="font-serif text-xl mb-4 text-gray-800 border-b pb-2">Groom's Side</h4>
+                    <p class="text-gray-600 mb-2">Brine: <a href="tel:+263771112993" class="text-primary hover:underline">+263 773 802 976</a></p>
+                    <p class="text-gray-600">Gody: <a href="tel:+263777742370" class="text-primary hover:underline">+263 772 118 877</a></p>
+                </div>
+                <div>
+                    <h4 class="font-serif text-xl mb-4 text-gray-800 border-b pb-2">Bride's Side</h4>
+                    <p class="text-gray-600 mb-2">Nancy: <a href="tel:+263786978756" class="text-primary hover:underline">+263 773 662 535</a></p>
+                    <p class="text-gray-600">Nisi: <a href="tel:+263788102182" class="text-primary hover:underline">+263 778 848 308</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ============ FINAL CTA ============ -->
+<div class="relative bg-ink-dark py-20 md:py-28 overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-transparent"></div>
+    <div x-intersect.once="$el.classList.add('reveal-visible')" class="reveal relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <span class="eyebrow">Ready to Celebrate?</span>
+        <h2 class="font-serif text-4xl md:text-6xl font-bold text-white mt-4 mb-4">Join Us For Our Big Day</h2>
+        <p class="font-serif italic text-2xl md:text-3xl text-primary-light mb-10">Your presence is the best present.</p>
+        <a href="rsvp.html" class="inline-block bg-primary hover:bg-primary-dark text-white px-10 py-4 rounded-full text-lg shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 transition-all duration-300">RSVP Now</a>
+    </div>
+</div>
+
+<script>
+document.addEventListener('alpine:init', () => {
+    Alpine.data('countdown', (targetDate) => ({
+        days: '00',
+        hours: '00',
+        minutes: '00',
+        seconds: '00',
+        init() {
+            this.update();
+            setInterval(() => this.update(), 1000);
+        },
+        update() {
+            const now = new Date().getTime();
+            const distance = targetDate - now;
+
+            if (distance < 0) {
+                return;
+            }
+
+            this.days = String(Math.floor(distance / (1000 * 60 * 60 * 24))).padStart(2, '0');
+            this.hours = String(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).padStart(2, '0');
+            this.minutes = String(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))).padStart(2, '0');
+            this.seconds = String(Math.floor((distance % (1000 * 60)) / 1000)).padStart(2, '0');
+        }
+    }))
+})
+</script>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-ink-dark text-white py-12 border-t border-primary/20">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="font-serif text-3xl mb-4 text-primary-light">Godfrey & Gracious</h2>
+            <p class="mb-6 font-light text-secondary">July 25, 2026 • Harare, Zimbabwe</p>
+            <div class="flex justify-center space-x-6 mb-8">
+                <span class="inline-block w-3 h-3 rounded-full bg-white"></span>
+                <span class="inline-block w-3 h-3 rounded-full bg-black border border-white/20"></span>
+                <span class="inline-block w-3 h-3 rounded-full" style="background-color: #8b3ae7;"></span>
+                <span class="inline-block w-3 h-3 rounded-full" style="background-color: #918e8b;"></span>
+            </div>
+            <p class="text-sm text-white/50">&copy; 2026 Godfrey & Gracious. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+<!-- Mirrored from shepherdandmilcah.co.zw/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Jul 2026 10:12:41 GMT -->
+</html>
